@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// teste
 
 public class lanchonete {
     public static void main(String[] args) {
