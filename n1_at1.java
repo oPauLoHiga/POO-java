@@ -23,6 +23,7 @@ public class n1_at1 {
             System.out.println("**************************************");
             System.out.printf("*  PROFESSOR:%s\n*  ALUNO: %s\n*  1°NOTA: %.2f | 2°NOTA: %.2f\n*  MEDIA: %.2f\n",nome_prof , nome_aluno , nota1, nota2, media);
             System.out.println("**************************************");
+        sc.close();
         }
     }
 }
