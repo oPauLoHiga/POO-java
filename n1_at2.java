@@ -15,7 +15,7 @@ public class n1_at2 {
     } else {
 
         for (int i = 0; i < pedidos.length; i++) {
-            System.out.println("Escreva o pedido ");
+            System.out.printf("\nEscreva o %d pedido ", i + 1);
             pedidos[i] = sc.next();
 
             System.out.println("Digite a quantidade ");
@@ -30,14 +30,17 @@ public class n1_at2 {
                 }
             }
         }
-
-        System.out.println("CONTA DA MESA " + mesa);
+        System.out.print("***********************");
+        System.out.println("\nCONTA DA MESA " + mesa);
+        System.out.print("***********************");
         double valor_total = 0;
 
         for (int i = 0; i < 2; i++) {
         double subtotal = valor_produto[i] * quantidades[i];
         valor_total += subtotal;
-            System.out.printf("\nPedido: %s\nQuantidade: %d\nValor unitario: %.2f\nValor: %.2f",pedidos[i], quantidades[i], valor_produto[i], subtotal);
+
+            System.out.printf("\nPedido: %s\nQuantidade: %d\nValor unitario: %.2f\nValor: %.2f\n",pedidos[i], quantidades[i], valor_produto[i], subtotal);
+            System.out.print("***********************");
         }
         System.out.printf("\nValor total: %.2f", valor_total);
      }
