@@ -1,9 +1,9 @@
 package br.com.entities;
 
 public class Livro {
-    public String titulo;
-    public String autor;
-    public double preco;
+    private String titulo;
+    private String autor;
+    private double preco;
 
     public Livro(String titulo, String autor, double preco) {
         this.titulo = titulo;
