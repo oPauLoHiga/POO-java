@@ -1,3 +1,5 @@
+package n1;
+
 import java.util.Scanner;
 
 public class n1_at1 {
