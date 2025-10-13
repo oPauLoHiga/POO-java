@@ -3,12 +3,16 @@ package lojinha;
 import java.util.Locale;
 import java.util.Scanner;
 
+
+// fazer um escolha para as funcoes
+//
+
 public class progama {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        aplicacao produtos = new aplicacao();
+        roupa produtos = new roupa();
 
         // CADASTRO
         System.out.print("Nome do produto: ");

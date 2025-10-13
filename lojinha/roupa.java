@@ -1,9 +1,17 @@
 package lojinha;
 
-public class aplicacao {
+// Nome das roupas / preços / quantidade /
+// modelo de impressão/ addQuantidade/
+// removeQuantidade/ métodos de alterar nome e preço
+
+public class roupa {
     public String nome;
     public double preco;
     public int quantidade;
+    public int tamanho;
+    public String modelo;
+    public int addQuantidade;
+    public int removeQuantidade;
 
     public double total() {
         return preco * quantidade;
