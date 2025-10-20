@@ -1,10 +1,10 @@
-package lojinha_n2;
+package ProjeN2.entities;
 
 // Nome das roupas / preços / quantidade /
 // modelo de impressão/ addQuantidade/
 // removeQuantidade/ métodos de alterar nome e preço
 
-public class roupa {
+public class Graduacao_Paulo {
     public String nome;
     public double preco;
     public int quantidade;

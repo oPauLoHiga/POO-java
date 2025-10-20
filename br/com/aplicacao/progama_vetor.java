@@ -5,7 +5,7 @@ public class progama_vetor {
         Scanner sc = new Scanner(System.in);
         double [] valor = new double[4];
         String [] produto = new String [4];
-        
+
         //CADASTRO
         for (int i = 0; i < produto.length; i++) {
             System.out.printf("Digite o %d nome do produto: ", i + 1);
