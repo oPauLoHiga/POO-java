@@ -1,7 +1,5 @@
 package br.com.aplicacao;
-
 import java.util.Scanner;
-
 public class progama_vetor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +15,7 @@ public class progama_vetor {
         }
         //IMPRESSÃO
         for (int i = 0; i < 4; i++){
-            System.out.printf("Produto: %s%nValor: %.2f%n%n", produto[i], valor[i]);
+            System.out.printf("Produto: %s | Valor: %.2f%n%n", produto[i], valor[i]);
         }
         sc.close();
     }

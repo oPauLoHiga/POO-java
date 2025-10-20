@@ -27,13 +27,9 @@ public class roupa {
 
     // Objeto convertido para String
     public String toString() {
-        return "Nome: "
-                + nome
-                + " / Preço: $"
-                + String.format("%.2f", preco)
-                + " / Quantidade: "
-                + quantidade
-                + " / Total: $"
-                + String.format("%.2f", total());
+        return "Nome: " + nome
+                + " / Preço: $" + String.format("%.2f", preco)
+                + " / Quantidade: " + quantidade
+                + " / Total: $" + String.format("%.2f", total());
     }
 }
