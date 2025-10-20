@@ -7,9 +7,9 @@ public class progama_vetor {
         String [] produto = new String [4];
         //CADASTRO
         for (int i = 0; i < produto.length; i++) {
-            System.out.println("Digite o nome do produto: ");
+            System.out.printf("Digite o %d nome do produto: ", i + 1);
             produto[i] = sc.nextLine();
-            System.out.println("Digite o valor do produto: ");
+            System.out.printf("Digite o %d valor do produto: ", i + 1);
             valor[i] = sc.nextDouble();
             sc.nextLine();
         }
