@@ -1,4 +1,4 @@
-package lojinha;
+package lojinha_n2;
 
 // Nome das roupas / preços / quantidade /
 // modelo de impressão/ addQuantidade/
