@@ -2,10 +2,10 @@ package ProjeN2.entities;
 
 public class Pessoas_Paulo {
     private String nome ;
-    private int cpf  ;
+    private String cpf  ;
     private String matricula ;
 
-    public Pessoas_Paulo(String nome, int cpf, String matricula){
+    public Pessoas_Paulo(String nome, String cpf, String matricula){
         this.nome = nome;
         this.cpf = cpf;
         this.matricula = matricula;
@@ -18,10 +18,10 @@ public class Pessoas_Paulo {
         this.nome = nome;
     }
 
-    public int getCpf() {
+    public String getCpf() {
         return cpf;
     }
-    public void setCpf(int cpf) {
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
@@ -30,6 +30,12 @@ public class Pessoas_Paulo {
     }
     public void setMatricula(String matricula) {
         this.matricula = matricula;
+    }
+    @Override
+    public String toString(){
+        return "Nome: " + nome + "\n" +
+                "CPF: " + cpf + "\n" +
+                "Matrícula: " + matricula;
     }
 }
 

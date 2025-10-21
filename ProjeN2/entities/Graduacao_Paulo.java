@@ -4,7 +4,7 @@ import br.com.app.Progama;
 
 public class Graduacao_Paulo extends Pessoas_Paulo {
     private String cursoGraduacao;
-    public Graduacao_Paulo(String nome, int cpf, String matricula, String cursoGraduacao) {
+    public Graduacao_Paulo(String nome, String cpf, String matricula, String cursoGraduacao) {
         super(nome, cpf, matricula);
         this.cursoGraduacao = cursoGraduacao;
     }
@@ -13,5 +13,10 @@ public class Graduacao_Paulo extends Pessoas_Paulo {
     }
     public void setCursoGraduacao(String cursoGraduacao) {
         this.cursoGraduacao = cursoGraduacao;
+    }
+    @Override
+    public String toString() {
+        return  super.toString() +
+                "\nCurso Graduacao: " + cursoGraduacao;
     }
 }
