@@ -7,6 +7,11 @@ import ProjeN2.entities.PosGraduacao_Paulo;
 import java.util.Locale;
 import java.util.Scanner;
 
+// import java.util.ArrayList;
+// for com vetor
+// localizar o aluno para matricular na graduação ou pós-graduação
+//
+
 public class Progama_Paulo_Higa {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
