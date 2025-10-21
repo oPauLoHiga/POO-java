@@ -1,35 +1,17 @@
 package ProjeN2.entities;
 
-// Nome das roupas / preços / quantidade /
-// modelo de impressão/ addQuantidade/
-// removeQuantidade/ métodos de alterar nome e preço
+import br.com.app.Progama;
 
-public class Graduacao_Paulo {
-    public String nome;
-    public double preco;
-    public int quantidade;
-    public int tamanho;
-    public String modelo;
-    public int addQuantidade;
-    public int removeQuantidade;
-
-    public double total() {
-        return preco * quantidade;
+public class Graduacao_Paulo extends Pessoas_Paulo {
+    private String cursoGraduacao;
+    public Graduacao_Paulo(String nome, int cpf, String matricula, String cursoGraduacao) {
+        super(nome, cpf, matricula);
+        this.cursoGraduacao = cursoGraduacao;
     }
-
-    public void addProdutos(int quantidade) {
-        this.quantidade += quantidade;
+    public String getCursoGraduacao() {
+        return cursoGraduacao;
     }
-
-    public void removeProdutos(int quantidade) {
-        this.quantidade -= quantidade;
-    }
-
-    // Objeto convertido para String
-    public String toString() {
-        return "Nome: " + nome
-                + " / Preço: $" + String.format("%.2f", preco)
-                + " / Quantidade: " + quantidade
-                + " / Total: $" + String.format("%.2f", total());
+    public void setCursoGraduacao(String cursoGraduacao) {
+        this.cursoGraduacao = cursoGraduacao;
     }
 }
