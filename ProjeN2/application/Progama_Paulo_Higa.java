@@ -11,6 +11,13 @@ import java.util.Scanner;
 // for com vetor
 // localizar o aluno para matricular na graduação ou pós-graduação
 //
+// DO = resposta igual a SIM continua
+// 1 = cadastro aluno
+// 2 = qual curso: graduação ou pos
+// if... graduação ... else if.. pos
+// deseja cadastrar mais aluno?
+
+// while = não break
 
 public class Progama_Paulo_Higa {
     public static void main(String[] args) {
@@ -98,7 +105,7 @@ public class Progama_Paulo_Higa {
                         System.out.println("Opção inválida!");
             }
 
-        } while (opcao != 0);
+        } while (opcao != 0); // parar resposta não
         sc.close();
     }
 }
