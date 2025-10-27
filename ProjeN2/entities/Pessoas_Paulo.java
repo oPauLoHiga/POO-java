@@ -11,26 +11,15 @@ public class Pessoas_Paulo {
         this.matricula = matricula;
     }
 
-    public String getNome() {
-        return nome;}
+    public String getNome() {return nome;}
+    public void setNome(String nome) {this.nome = nome;}
 
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
+    public String getCpf() {return cpf;}
+    public void setCpf(String cpf) {this.cpf = cpf;}
 
-    public String getCpf() {
-        return cpf;
-    }
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
+    public String getMatricula() {return matricula;}
+    public void setMatricula(String matricula) {this.matricula = matricula;}
 
-    public String getMatricula() {
-        return matricula;
-    }
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
     @Override
     public String toString(){
         return "Nome: " + nome + "\n" +
