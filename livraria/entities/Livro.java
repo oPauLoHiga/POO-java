@@ -1,4 +1,4 @@
-package br.com.entities;
+package livraria.entities;
 
 public class Livro {
     private String titulo;
